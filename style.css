@@ -19,6 +19,7 @@
 body{
     min-height: 100vh;
     background-color: var(--bg-color);
+    min-width: 1150px;
 }
 
 header{
@@ -190,13 +191,14 @@ header{
 }
 
 .spate{
-    width: 100%;
+    max-width: 100%;
     height: 75rem;
     position: relative;
     background-color: var(--main-color);
     z-index: -1;
     display: grid;
     place-items: center;
+    background-size:cover;
 }
 
 .scris{
