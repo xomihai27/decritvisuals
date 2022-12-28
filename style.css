@@ -518,14 +518,14 @@ p3{
 
 .div9 { 
     grid-area: 7 / 1 / 8 / 3; 
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-color);
     padding-bottom: 15rem;
   }
 
 .contact-box{
     width: 75%;
     height: 45%;
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     margin: auto;
     margin-bottom: -35px;
     margin-top: 20px;
@@ -553,6 +553,7 @@ p3{
    outline: none;
    padding-bottom: 0.6%;
    border-width: 1px;
+   background-color: var(--bg-color);
   }
   
   .input-field2{
@@ -566,6 +567,7 @@ p3{
     outline: none;
     padding-bottom: 0.6%;
     border-width: 1px;
+    background-color: var(--bg-color);
   }
   
   .input-field3{
@@ -579,6 +581,7 @@ p3{
    outline: none;
    padding-bottom: 0.6%;
    border-width: 1px;
+   background-color: var(--bg-color);
   }
   
   .input-field4{
@@ -591,11 +594,12 @@ p3{
    border-width: 1px;
    padding-top: 10%;
    padding-right: 73% ;
+   background-color: var(--bg-color);
   }
 
   textarea{
     resize: none;
-    background-color: transparent;
+    background-color: var(--bg-color);
     outline: none;
   }
   
@@ -622,7 +626,7 @@ p3{
     display: flex;
     font-size: 1.5vw;
     padding-left: 14.3%;
-    color: #0021c8;
+    color: var(--third-color);
     padding-bottom: 3rem;
   }
   
@@ -649,7 +653,7 @@ p3{
     width: 100%;
   
     padding-top: 40px;
-    color: #fff;
+    color: var(--bg-color);
   }
   .footer-content{
     display: flex;
