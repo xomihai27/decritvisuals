@@ -18,7 +18,7 @@
   <header id="navbar">
     <a href="#" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"></i></a>
 
-    <ul class="navbar">
+    <ul class="navbar" id="bara">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="#">About Us</a></li>
       <li><a href="#">Services</a></li>
@@ -43,8 +43,10 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
+    document.getElementById("bara").style.top = "150px";
   } else {
     document.getElementById("navbar").style.top = "-150px";
+    document.getElementById("bara").style.top = "-300px";
   }
   prevScrollpos = currentScrollPos;
 }
@@ -54,7 +56,7 @@ window.onscroll = function() {
 <div class="imagini1">  <!-- logo Decrit mare si 3D   --> 
     <img class="LogoMare" src="LogoMare.png">
     <img class="Logo3D" src="Logo3D.png">
-    <span class="sub-logo">The fist step of your brand</span>
+    <span class="sub-logo">The first step of your brand</span>
 </div>
 
   <div class="spate">
@@ -111,7 +113,7 @@ window.onscroll = function() {
     
     <div class="web">
       <a href="#">
-        <div class="web-txt">Web Desing</div>
+        <div class="web-txt">Web Design</div>
       <img src="Web Design.jpg" alt="Web Design" class="web-img">
       <img src="scris-web.jpg" alt="web" class="scris-web">
     </a>
@@ -140,138 +142,30 @@ window.onscroll = function() {
 
   <!-- Form -->
 
-  <div class="form">
-    <div  class="scris-form">
-      <p1>Sounds interesting?</p1>
-      <p2><span style="color:#0021c8 ;">Let's have a coffee</span></p2>
-
-    </div>
-
+  <div class="div9">
+    <p25>Sounds interesting?</p25>
+    <p26>Let's have a coffee</p26>
+    <p27>Send us a brief text of your needs and we'll put a pin in our calendar.</p27>
+   <div class="contact-box">
+    <div class="contact">
+    <form class="contact-form" action="contactform.php" method="post">
+      <input type="text" class="input-field1" name="name" placeholder="Name" required>
+      <input type="text" name="company" class="input-field2" placeholder="Company">
+      <input type="email" name="email" class="input-field3" placeholder="Email address" required>
+      <textarea type="text" name="message" class="input-field4" placeholder="Message" required></textarea>
+      <a href="index.html">
+      <button type="submit" name="submit" class="submit1">Send</button></a>
+    </form>
+   </div>
+   </div>
   </div>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-
-  
   </body>
+
+   
+  
+
 </html>
 

@@ -16,10 +16,18 @@
     
 }
 
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
 body{
-    min-height: 100vh;
     background-color: var(--bg-color);
-    min-width: 1150px;
+    min-height: 100%;
+    
 }
 
 header{
@@ -47,7 +55,6 @@ header{
 
 .navbar{
     display: flex;
-
 }
 
 .navbar a{
@@ -127,6 +134,7 @@ header{
         justify-content: flex-start;
         border-radius: 10px;
         transition: all .50s ease;
+        border: black solid;
     }
 
     .navbar a{
@@ -178,28 +186,31 @@ header{
 
 .Logo3D{
     position: relative;
-    top: -22rem;
+    top: -12rem;
     left: 16rem;
-    width: 40rem;
+    width: 25rem;
 }
 .sub-logo{
     position: relative;
-    top: -38rem;
-    left: -5.25rem;
+    top: -16.5rem;
+    left: -6rem;
     font-size: 2rem;    
     color: var(--main-color)
 }
 
 .spate{
-    max-width: 100%;
-    height: 75rem;
+    height: 80vw;
+    width: 100%;
     position: relative;
+
+    top: 15rem;
     background-color: var(--main-color);
     z-index: -1;
     display: grid;
     place-items: center;
-    background-size:cover;
+    overflow: hidden;
 }
+
 
 .scris{
     font-size: 2vw;
@@ -209,7 +220,6 @@ header{
     right: 12vw;
     font-weight: 500;
     color: var(--bg-color);
-    line-height: 7rem;
 }
 
 .sub-scris1{
@@ -219,7 +229,7 @@ header{
     font-weight: 500;
     font-size: 2vw;
     position: relative;
-    bottom: -10rem;
+    bottom: -7.5rem;
 }
 
 .we-are-decrit{
@@ -238,11 +248,13 @@ header{
 
 .services{
     position: relative;
+    top: 15rem;
     width: 100%;
     z-index: 1000;
     display: grid;
     place-items: center;
     z-index: -1;
+
 }
 
 .services-scris{
@@ -290,7 +302,7 @@ p3{
     justify-content: center;
     align-items: center;
     gap: 9vw;
-    top: 15rem;
+    top: 25rem;
 
 }
 
@@ -336,6 +348,13 @@ p3{
     filter: opacity(85%);
 }
 
+@media (max-width: 1100px)
+{
+    .services-scris{
+        font-size: 2.5vw;
+    }
+}
+
 .advertising{
     width: 20vw;
     height: 25vw;
@@ -372,9 +391,9 @@ p3{
     color: var(--bg-color);
     font-weight: 600;
     top: 21.5vw;
-    left: 13.5vw;
+    left: 14.5vw;
     transition: all 1s ease;
-    z-index: 1000;
+    z-index: 90;
 }
 
 .brand-txt{
@@ -382,10 +401,10 @@ p3{
     font-size:2.7vw;
     color: var(--bg-color);
     font-weight: 600;
-    left: 41.5vw;
+    left: 42vw;
     top: 21.5vw;
     transition: all 1s ease;
-    z-index: 1000;
+    z-index: 90;
 }
 
 .web-txt{
@@ -393,10 +412,10 @@ p3{
     font-size: 2.7vw;
     color: var(--bg-color);
     font-weight: 600;
-    left: 71.5vw;
+    left: 72vw;
     top: 21vw;
     transition: all 1s ease;
-    z-index: 1000;
+    z-index: 90;
 }
 
 .advertising:hover .serv-txt{
@@ -423,6 +442,7 @@ p3{
     width: 100%;
     gap: 8rem;
     overflow: hidden;
+    margin-bottom: 5rem;
 }
 
 .work-txt{
@@ -434,19 +454,20 @@ p3{
 
 .exotique, .Decrit{
     position: relative;
-    left: 25rem;
-    margin-right: 15vw;
+    
+    margin-left: 25vw;
+
 }
 
 .exotique-poza, .decrit-poza{
     max-width: 100vw;
-    width: 65vw;
+    width: 60vw;
     border: var(--second-color) solid;
     transition: all 1s ease;
 }
 
 .exotique-scris, .decrit-scris{
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: var(--bg-color);
     width: fit-content;
     transition: all 1s ease;
@@ -476,8 +497,142 @@ p3{
     font-size: 3vw;
     display: flex;
     flex-direction: column;
+    
 }
 
 .scris-form p2{
     font-size: 2vw;
 }
+
+
+
+
+
+
+
+
+
+
+.div9 { 
+    grid-area: 7 / 1 / 8 / 3; 
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5rem;
+  }
+
+.contact-box{
+    width: 75%;
+    height: 45%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: -35px;
+    margin-top: 20px;
+    border: 2px #0021c8;
+    border-style: solid;
+  }
+  
+  .contact{
+    padding-top: 5%;
+    padding-left: 7.5%;
+    border-width: 2px;
+   
+  
+  }
+  
+  
+  .input-field1{
+   margin-right: 20px;
+   font-size: 1.1vw;
+   padding-right: 10%;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: #0021c8;
+   outline: none;
+   padding-bottom: 0.6%;
+   border-width: 1px;
+  }
+  
+  .input-field2{
+    margin-right: 20px;
+    font-size: 1.1vw;
+    padding-right: 10%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #0021c8;
+    outline: none;
+    padding-bottom: 0.6%;
+    border-width: 1px;
+  }
+  
+  .input-field3{
+    margin-right: x;
+    font-size: 1.1vw;
+    padding-right:8.7%;
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: #0021c8;
+   outline: none;
+   padding-bottom: 0.6%;
+   border-width: 1px;
+  }
+  
+  .input-field4{
+    font-size: 1.1vw;
+    padding-right: 20px;
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: #0021c8;
+   border-width: 1px;
+   padding-top: 10%;
+   padding-right: 73% ;
+  }
+
+  textarea{
+    resize: none;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .submit1{
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 43.5%;
+    font-size:1.3vw;
+    margin-top: 6%;
+    filter:contrast(20%) ;
+    transition: all .50s ease;
+  }
+  p25{
+    font-size: 4vw;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 14%;
+  }
+  
+  p26{
+    display: flex;
+    font-size: 1.5vw;
+    padding-left: 14.3%;
+    color: #0021c8;
+    padding-bottom: 3rem;
+  }
+  
+  p27{
+    display: flex;
+    font-size: 1.5vw;
+    padding-left: 14.3%;
+    padding-top: 5%;
+  }
+  
+  .submit1:hover{
+    filter: contrast(100%);
+    color: var(--third-color);
+  }
+
+ 
