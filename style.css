@@ -5,6 +5,7 @@
     font-family: 'Urbanist', sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 :root{
