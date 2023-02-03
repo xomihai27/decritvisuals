@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decrit Visuals</title>
+<link rel="icon" href="LogoPlin.png">
+<link rel="stylesheet" href="style.css">
+<link href='https://css.gg/menu.css' rel='stylesheet'>
+<link href='https://css.gg/instagram.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Navbarul + script pt meniu onclick-->
+  <header id="navbar">
+    <a href="#" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"  data-aos="fade-right" data-aos-duration="2000"></img></a>
+   
+
+    <ul class="navbar" id="bara">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="services.html">Our Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#" class="bar">Instagram</a></li>
+    </ul>
+    <div class="main">
+      <a href="#" class="icon-insta"  data-aos="fade-left" data-aos-duration="2000"><img src="instagram.png" width="45px"></a>
+      <div class="bx bx-menu" id="menu-icon"><img src="buton-menu.png" width="45px"></div>
+    </div>
+  </header>
+    <script type="text/javascript" src="script.js"></script>
+
+
+<!-- Script pt scroll sa dispara navbarul -->
+ <script>  
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("bara").style.top = "150px";
+  } else {
+    document.getElementById("navbar").style.top = "-150px";
+    document.getElementById("bara").style.top = "-300px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+ </script>
+
+
+<div class="imagini1">  <!-- logo Decrit mare si 3D   --> 
+    <img class="LogoMare" src="LogoMare.png">
+    <img class="Logo3D" src="Logo3D.png"  data-aos="fade-left" data-aos-duration="2000">
+    <span class="sub-logo"  data-aos="fade-up" data-aos-duration="2000">The first step of your brand</span>
+</div>
+
+  <div class="spate">
+    <div class="scris" >
+      How do you stand out?
+      <br>
+      How do you show the difference?
+      <br> <span style="color: #67E1FF">Just explore</span> outside the grids.
+      </div>
+      <div class="sub-scris1">
+        <p1 data-aos="fade-right">Be</p1>
+        <p2 data-aos="fade-right" data-aos-duration="1000">Strategic</p2>
+        <p3 data-aos="fade-right" data-aos-duration="2000">Empathic</p3>
+        <p4 data-aos="fade-right" data-aos-duration="3000">Creative</p4>
+      </div>
+      <div  class="we-are-decrit">
+        <p2 style="color: #E2E1E1;">we are</p2>
+        <p3 style="color: #67e1ff;">decrit.</p3>
+        
+      </div>
+  
+  </div>
+<!-- Logouri services si imaginile -->
+  <div class="services">
+    <div class="services-scris">
+        <p2>Ready to translate your mission into the right</p2>
+        <p3><span style="color: #0021c8">shapes</span> and <span style="color: #0021c8">colors</span></p3>
+        <p4>Ready to do it all into <span style="color: #0021c8">better</span>,</p4>
+        <p5>not only more</p5>
+    </div>
+    <div>
+      <img src="DecritLogo-1Blue-IconBlue.png" alt="logo" class="Logo-services">
+      <img src="Component1.svg" class="Svg-services-scris" data-aos="fade-right" data-aos-duration="2000">
+    </div>
+    
+  </div>
+
+  <div class="services-imagini">
+    <div class="advertising">
+      <a href="services.html">
+        <div class="serv-txt">Advertising</div>
+      <img src="imagine.jpg" alt="Advertising" class="advertising-img">
+      <img src="scris-ad.jpg" alt="advertising" class="scris-ad">
+    </a>
+    </div>
+
+    <div class="brand">
+      <a href="services.html">
+        <div class="brand-txt" >Brand Identity</div>
+      <img src="Brand Identity.jpg" alt="Brand Identity"  class="brand-img">
+      <img src="scris-brand.jpg" alt="brand" class="scris-brand">
+    </a>
+    </div>
+    
+    <div class="web">
+      <a href="services.html">
+        <div class="web-txt">Web Design</div>
+      <img src="Web Design.jpg" alt="Web Design" class="web-img">
+      <img src="scris-web.jpg" alt="web" class="scris-web">
+    </a>
+    </div>
+
+  </div>
+
+  <!-- Work -->
+
+  <div class="work">
+    <div class="work-txt"  data-aos="fade-right" data-aos-duration="2000">Work</div>
+    <div class="exotique">
+      <a href="services.html">
+      <img src="exotic.jpg" alt="Exotique" class="exotique-poza">
+      <div class="exotique-scris">Exotique Events</div>
+    </a>
+    </div>
+
+    <div class="Decrit">
+      <a href="services.html">
+      <img src="decritb.jpg" alt="Decrit" class="decrit-poza">
+      <div class="decrit-scris">Decrit Visuals</div>
+    </a>
+    </div>
+  </div>
+
+  <div class="div9" id="contact">
+    <p25>Sounds interesting?</p25>
+    <p26>Let's have a coffee</p26>
+    <p27>Send us a brief text of your needs and we'll put a pin in our calendar.</p27>
+   <div class="contact-box">
+    <div class="contact">
+    <form class="contact-form" action="contactform.php" method="post">
+      <input type="text" class="input-field1" name="name" placeholder="Name" required>
+      <input type="text" name="company" class="input-field2" placeholder="Company">
+      <input type="email" name="email" class="input-field3" placeholder="Email address" required>
+      <textarea type="text" name="message" class="input-field4" placeholder="Message" required></textarea>
+      <a href="index.html">
+      <button type="submit" name="submit" class="submit1">Send</button></a>
+    </form>
+   </div>
+   </div>
+  </div>
+
+
+
+  </body>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+  <footer>
+      <div class="footer-content">
+          <h3>Decrit Visuals</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Decrit Visuals</a>  </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="services.html">Our Work</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+      </div>
+
+  </footer>
+  
+
+</html>
+
