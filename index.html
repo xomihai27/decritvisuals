@@ -9,14 +9,19 @@
 <link href='https://css.gg/instagram.css' rel='stylesheet'>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- Navbarul + script pt meniu onclick-->
   <header id="navbar">
-    <a href="#" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"></img></a>
+    <a href="#" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"  data-aos="fade-right" data-aos-duration="2000"></img></a>
+   
 
     <ul class="navbar" id="bara">
       <li><a href="index.html" class="active">Home</a></li>
@@ -26,7 +31,7 @@
       <li><a href="#" class="bar">Instagram</a></li>
     </ul>
     <div class="main">
-      <a href="#" class="icon-insta"><img src="instagram.png" width="45px"></a>
+      <a href="#" class="icon-insta"  data-aos="fade-left" data-aos-duration="2000"><img src="instagram.png" width="45px"></a>
       <div class="bx bx-menu" id="menu-icon"><img src="buton-menu.png" width="45px"></div>
     </div>
   </header>
@@ -52,8 +57,8 @@ window.onscroll = function() {
 
 <div class="imagini1">  <!-- logo Decrit mare si 3D   --> 
     <img class="LogoMare" src="LogoMare.png">
-    <img class="Logo3D" src="Logo3D.png">
-    <span class="sub-logo">The first step of your brand</span>
+    <img class="Logo3D" src="Logo3D.png"  data-aos="fade-left" data-aos-duration="2000">
+    <span class="sub-logo"  data-aos="fade-up" data-aos-duration="2000">The first step of your brand</span>
 </div>
 
   <div class="spate">
@@ -64,10 +69,10 @@ window.onscroll = function() {
       <br> <span style="color: #67E1FF">Just explore</span> outside the grids.
       </div>
       <div class="sub-scris1">
-        <p1>Be</p1>
-        <p2>Strategic</p2>
-        <p3>Empathic</p3>
-        <p4>Creative</p4>
+        <p1 data-aos="fade-right">Be</p1>
+        <p2 data-aos="fade-right" data-aos-duration="1000">Strategic</p2>
+        <p3 data-aos="fade-right" data-aos-duration="2000">Empathic</p3>
+        <p4 data-aos="fade-right" data-aos-duration="3000">Creative</p4>
       </div>
       <div  class="we-are-decrit">
         <p2 style="color: #E2E1E1;">we are</p2>
@@ -86,7 +91,7 @@ window.onscroll = function() {
     </div>
     <div>
       <img src="DecritLogo-1Blue-IconBlue.png" alt="logo" class="Logo-services">
-      <img src="Component1.svg" class="Svg-services-scris">
+      <img src="Component1.svg" class="Svg-services-scris" data-aos="fade-right" data-aos-duration="2000">
     </div>
     
   </div>
@@ -121,7 +126,7 @@ window.onscroll = function() {
   <!-- Work -->
 
   <div class="work">
-    <div class="work-txt">Work</div>
+    <div class="work-txt"  data-aos="fade-right" data-aos-duration="2000">Work</div>
     <div class="exotique">
       <a href="services.html">
       <img src="exotic.jpg" alt="Exotique" class="exotique-poza">
