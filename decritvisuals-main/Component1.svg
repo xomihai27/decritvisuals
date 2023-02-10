@@ -1,8 +1,0 @@
-<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="938" height="155" viewBox="0 0 938 155">
-  <rect id="Rectangle_5" data-name="Rectangle 5" width="19" height="155" transform="translate(919)" fill="#0021c8"/>
-  <g id="Rectangle_4" data-name="Rectangle 4" fill="none" stroke="#0021c8" stroke-width="2" stroke-dasharray="6 6">
-    <rect width="935" height="155" stroke="none"/>
-    <rect x="1" y="1" width="933" height="153" fill="none"/>
-  </g>
-  <text id="Services" transform="translate(344 108)" fill="#0021c8" font-size="86" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Services</tspan></text>
-</svg>
