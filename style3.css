@@ -201,7 +201,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 25rem;
+    top: 15rem;
     width: 100%;
     border:black solid;
     gap: 10vw;
@@ -227,7 +227,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 35rem;
+    top: 15rem;
     width: 100%;
     border:black solid;
     gap: 10vw;
@@ -249,19 +249,14 @@ header{
 }
 
 
-
-
-
 footer{
     position: relative;
-    left: 0;
-    right: 0;
+    bottom: 0;
     background: var(--main-color);
-    height: auto;
+    height: fit-content;
     width: 100%;
-  
-    padding-top: 40px;
     color: var(--bg-color);
+    margin-top: 15rem;
   }
   .footer-content{
     display: flex;
@@ -307,8 +302,6 @@ footer{
   .socials a i{
     font-size: 1.1rem;
     width: 20px;
-  
-  
     transition: color .4s ease;
   
   }
@@ -318,9 +311,9 @@ footer{
   
   .footer-bottom{
     background: var(--main-color);
-    width: 100%x;
+    width: 100%;
     padding: 20px;
-  padding-bottom: 40px;
+    padding-bottom: 40px;
     text-align: center;
   }
   .footer-bottom p{
