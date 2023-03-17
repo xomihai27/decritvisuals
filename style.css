@@ -652,8 +652,7 @@ p3{
     background: var(--main-color);
     height: auto;
     width: 100%;
-  
-    padding-top: 40px;
+    bottom: 0;
     color: var(--bg-color);
   }
   .footer-content{
@@ -755,6 +754,5 @@ p3{
   .footer-menu ul{
   display: flex;
   margin-top: 10px;
-  margin-bottom: 20px;
   }
   }
