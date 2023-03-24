@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrit Visuals</title>
+    <link rel="icon" href="LogoPlin.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <link href='https://css.gg/menu.css' rel='stylesheet'>
+    <link href='https://css.gg/instagram.css' rel='stylesheet'>
+</head>
+<header id="navbar">
+    <a href="#" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"></img></a>
+   
+
+    <ul class="navbar" id="bara">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus2.html">About Us</a></li>
+      <li><a href="services.html">Our Work</a></li>
+      <li><a href="#" class="active">Contact</a></li>
+      <li><a href="#" class="bar">Instagram</a></li>
+    </ul>
+    <div class="main">
+      <a href="#" class="icon-insta"><img src="instagram.png" width="45px"></a>
+      <div class="bx bx-menu" id="menu-icon"><img src="buton-menu.png" width="45px"></div>
+    </div>
+  </header>
+    <script type="text/javascript" src="script.js"></script>
+
+
+<!-- Script pt scroll sa dispara navbarul -->
+ <script>  
+  var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("bara").style.top = "150px";
+  } else {
+    document.getElementById("navbar").style.top = "-150px";
+    document.getElementById("bara").style.top = "-300px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+ </script>
+<body>
+
+
+
+    <div class="div9" id="contact" style="margin-top: 5rem;">
+        <p25>Sounds interesting?</p25>
+        <p26>Let's have a coffee</p26>
+        <p27>Send us a brief text of your needs and we'll put a pin in our calendar.</p27>
+       <div class="contact-box">
+        <div class="contact">
+        <form class="contact-form" action="contactform.php" method="post">
+          <input type="text" class="input-field1" name="name" placeholder="Name" required>
+          <input type="text" name="company" class="input-field2" placeholder="Company">
+          <input type="email" name="email" class="input-field3" placeholder="Email address" required>
+          <textarea type="text" name="message" class="input-field4" placeholder="Message" required></textarea>
+          <a href="index.html">
+          <button type="submit" name="submit" class="submit1">Send</button></a>
+        </form>
+       </div>
+       </div>
+      </div>
+    
+</body>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <footer>
+      <div class="footer-content">
+          <h3>Decrit Visuals</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Decrit Visuals</a>  </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="aboutus2.html">About Us</a></li>
+                      <li><a href="services.html">Our Work</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+      </div>
+
+  </footer>
+</html>

@@ -24,22 +24,37 @@
   <body>
 
     <header id="navbar">
-        <a href="index.html" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"  data-aos="fade-right" data-aos-duration="2000"></img></a>
+        <a href="index.html" class="logo"><img src="DecritLogo-1Navy-Icon.svg" alt="Logo"  ></img></a>
        
     
         <ul class="navbar" id="bara">
           <li><a href="index.html">Home</a></li>
           <li><a href="aboutus.html" class="active">About Us</a></li>
           <li><a href="services.html">Our Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="#" class="bar">Instagram</a></li>
         </ul>
         <div class="main">
-          <a href="#" class="icon-insta"  data-aos="fade-left" data-aos-duration="2000"><img src="instagram.png" width="45px"></a>
+          <a href="#" class="icon-insta"><img src="instagram.png" width="45px"></a>
           <div class="bx bx-menu" id="menu-icon"><img src="buton-menu.png" width="45px"></div>
         </div>
       </header>
         <script type="text/javascript" src="script.js"></script>
+
+        <script>  
+          var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+            document.getElementById("bara").style.top = "150px";
+          } else {
+            document.getElementById("navbar").style.top = "-150px";
+            document.getElementById("bara").style.top = "-300px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+         </script>
 
     <main role="main">
         </ol>
@@ -49,7 +64,7 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>About Us</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
             </div>
           </div>
@@ -91,7 +106,7 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="imaginecod.PNG" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -103,7 +118,7 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -144,7 +159,7 @@
                       <li><a href="index.html">Home</a></li>
                       <li><a href="aboutus2.html">About Us</a></li>
                       <li><a href="services.html">Our Work</a></li>
-                      <li><a href="#contact">Contact</a></li>
+                      <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
       </div>
